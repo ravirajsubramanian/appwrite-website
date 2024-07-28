@@ -79,6 +79,7 @@ Platform errors are not related to an individual product, but can occur across t
 | 404  | platform_not_found | Platform with the requested ID could not be found. |
 | 404  | project_not_found | Project with the requested ID could not be found. Please check the value of the `X-Appwrite-Project` header to ensure the correct project ID is being used. |
 | 404  | router_host_not_found | Host is not trusted. This could occur because you have not configured a custom domain. Add a custom domain to your project first and try again. |
+| 404  | fortune_message_not_found | Possibly the cookie is not from us. Try ours. |
 | 405  | general_not_implemented | This method was not fully implemented yet. If you believe this is a mistake, please upgrade your Appwrite server version. |
 | 409  | project_already_exists | Project with the requested ID already exists. Try again with a different ID or use `unique()` to generate a unique ID. |
 | 409  | rule_already_exists | Domain is already used. Please try again with a different domain. |
